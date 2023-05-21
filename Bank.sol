@@ -24,7 +24,7 @@ contract Bank {
         _;
     }
 
-    // function show address of admin
+    // function to show address of admin
     function showAdmin () public view returns (address){
         return admin;
     }
