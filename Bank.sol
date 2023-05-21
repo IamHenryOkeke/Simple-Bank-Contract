@@ -49,7 +49,7 @@ contract Bank {
 
     // function to view amount of ETH in the contract
     function getContractBalance() public onlyAdmin view returns (uint256) {
-        return address(this).balance;
+        return address(this).balance / 1000000000000000000;
     }
 
     // function to withdraw all funds by the admin
